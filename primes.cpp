@@ -21,7 +21,7 @@ bool is_prime(int n)
   // otherwise check whether n is divisible by any other integers
   else
   {
-    for (i = 2; i < sqrt(n); ++i) {
+    for (i = 2; i <= sqrt(n); ++i) {
       // first, if n is divisible evenly by 2, it's not prime
       if (n % i == 0)
       {
